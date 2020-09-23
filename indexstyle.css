@@ -46,8 +46,8 @@ footer p {
 }
 
 footer hr {
+    max-width: auto;
     height: 5px;
-    padding-top: -10px;
     background-color: rgb(78, 179, 179);
 }
 
