@@ -13,10 +13,6 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.nav-link {
-    font-family: sans-serif;
-}
-
 body {
     background-color: rgb(231, 231, 231);
 }
@@ -87,12 +83,14 @@ footer hr {
 @media screen and (max-width: 400px) {
     .jumbotron {
         margin: 10px 10px 50px 10px;
+        max-width: 95%;
     }
 
     .placeholderport img {
-        width: 200px;
-        height: 200px;
-        padding-bottom: -15px;
+        width: 300px;
+        height: 300px;
+        position: relative;
+        padding-left: 5px;
     }
 
     .display-4 {
