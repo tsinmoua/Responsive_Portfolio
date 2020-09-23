@@ -68,21 +68,21 @@ footer hr {
 
 @media screen and (max-width: 992px) {
     .jumbotron {
-        max-width: 65.75%;
-        margin-left: 4px;
+        max-width: 61.6%;
+        margin-left: 35px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .jumbotron {
         max-width: 450px;
-        margin-left: -4px;
+        margin-left: 35px;
     }
 
 @media screen and (max-width: 400px) {
     .jumbotron {
-        max-width: 94.5%;
-        margin-left: 10px;
+        max-width: 87.5%;
+        margin-left: 25px;
     }
 
     .display-4 {
