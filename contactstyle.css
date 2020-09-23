@@ -2,10 +2,6 @@
     font-family: sans-serif
 }
 
-.floatright {
-    float: right;
-}
-
 .navbar-light .navbar-brand {
     background-color: rgb(78, 179, 179);
     color: white;
@@ -34,11 +30,6 @@ body {
     color: rgb(78, 179, 179);
 }
 
-.placeholder {
-    float: left;
-    padding-right: 25px;
-}
-
 footer {
     background-color: darkgray;
     color: lightgrey;
@@ -55,12 +46,6 @@ footer hr {
     background-color: rgb(78, 179, 179);
 }
 
-.placeholderport {
-    padding: 19px;
-    float: left;
-    position: relative;
-}
-
 .form-control {
     width: 80%;
 }
@@ -71,11 +56,6 @@ footer hr {
 }
 
 @media screen and (max-width: 768px) {
-    .placeholderport img {
-        width: 350px;
-        height: 350px;
-    }
-
     .jumbotron {
         max-width: 450px;
     }
@@ -84,13 +64,6 @@ footer hr {
     .jumbotron {
         margin: 10px 10px 50px 10px;
         max-width: 95%;
-    }
-
-    .placeholderport img {
-        width: 300px;
-        height: 300px;
-        position: relative;
-        padding-left: 5px;
     }
 
     .display-4 {
